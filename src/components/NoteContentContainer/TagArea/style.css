@@ -1,0 +1,41 @@
+#tag-area {
+  margin-left: 70px;
+  margin-top: 15px;
+  margin-right: 70px;
+  margin-bottom: 15px;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+#tag-area.textArea.dark .ant-tag.old-tag {
+  background-color: #1c1c1c;
+  color: #f3f3f3;
+  border-color: rgb(83, 89, 83);
+  -webkit-transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+#tag-area.textArea.light .ant-tag.old-tag {
+  background-color: rgb(250,250,250);
+  color: rgba(0,0,0,0.65);
+  -webkit-transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+#tag-area.textArea.light .ant-tag.new-tag {
+  background-color: white;
+  color: #181818;
+  -webkit-transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+#tag-area.textArea.dark .ant-tag.new-tag {
+  background-color: #1d1d1d;
+  color: #f4f4f4;
+  border-color: rgb(83, 89, 83);
+  -webkit-transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+#tag-area.textArea.dark .ant-tag.old-tag .anticon-cross {
+  color: #f3f3f3;
+}

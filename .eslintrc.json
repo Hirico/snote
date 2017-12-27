@@ -1,0 +1,62 @@
+{
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "sourceType": "module",
+    "allowImportExportEverywhere": true
+  },
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es6": true,
+    "node": true
+  },
+  "extends": "airbnb",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "sourceType": "module"
+  },
+  "rules": {
+    "max-len": [
+      "off"
+    ],
+    "arrow-parens": [
+      "off"
+    ],
+    "comma-dangle": "off",
+    "no-const-assign": "warn",
+    "no-return-assign": "off",
+    "no-this-before-super": "warn",
+    "no-undef": "warn",
+    "no-unreachable": "warn",
+    "no-unused-vars": "warn",
+    "no-console": "off",
+    "no-use-before-define": "off",
+    "no-multi-assign": "off",
+    "no-param-reassign": "off",
+    "no-loop-func": "off",
+    "constructor-super": "warn",
+    "valid-typeof": "warn",
+    "no-extra-semi": "error",
+    "react/prop-types": "off",
+    "react/jsx-no-bind": "off",
+    "react/jsx-boolean-value": "off",
+    "react/prefer-stateless-function": "off",
+    "react/jsx-filename-extension": [
+      "error",
+      {
+        "extensions": [
+          ".js",
+          ".jsx"
+        ]
+      }
+    ]
+  },
+  "plugins": [
+    "import",
+    "compat",
+    "promise",
+    "react"
+  ]
+}

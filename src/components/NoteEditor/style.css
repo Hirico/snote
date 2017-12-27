@@ -1,0 +1,7 @@
+.NoteEditor {
+  min-height: calc(100% - 130px);
+  margin: 0px 70px 50px 70px;
+  padding: 5px 5px 5px 12px;
+  -webkit-transition: background-color 0.3s, color 0.3s;
+  transition: background-color 0.3s, color 0.3s;
+}

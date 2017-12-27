@@ -1,0 +1,20 @@
+.SignUpPage {
+  height: 100%;
+  background-color: rgba(0, 0, 0, .65);
+}
+
+.SignUpPage .ant-layout {
+  height: 100%;
+}
+
+.SignUpPage .ant-layout-content {
+  width: 650px;
+  padding-top: 50px;
+  padding-left: 20px;
+  background-color: white;
+  margin-left: calc((100vw - 650px)/2);
+  margin-right: calc((100vw - 650px)/2);
+  height: 580px;
+  margin-top: calc((100vh - 580px)/2);
+  margin-bottom: calc((100vh - 580px)/2);
+}

@@ -1,0 +1,29 @@
+.nav-top-bar {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.nav-top-bar .ant-input {
+  border-radius: 0;
+}
+
+.Navigator .bottomButton+span {
+  transition: border-color .3s cubic-bezier(.645,.045,.355,1),
+    background .3s cubic-bezier(.645,.045,.355,1),
+    padding .15s cubic-bezier(.645,.045,.355,1),
+    opacity .3s cubic-bezier(.645,.045,.355,1),
+    width .3s cubic-bezier(.645,.045,.355,1);
+  opacity: 1;
+}
+
+.Navigator .ant-divider {
+  transition: border-color .3s cubic-bezier(.645,.045,.355,1),background .3s cubic-bezier(.645,.045,.355,1),padding .15s cubic-bezier(.645,.045,.355,1);
+}
+
+.Navigator button {
+  border: 0px;
+}
+
+.Navigator .ant-input-search {
+  transition: border-color .3s cubic-bezier(.645,.045,.355,1),background .3s cubic-bezier(.645,.045,.355,1),padding .15s cubic-bezier(.645,.045,.355,1);
+}

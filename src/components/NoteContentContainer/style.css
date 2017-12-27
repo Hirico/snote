@@ -1,0 +1,108 @@
+.saveHintHeader {
+  position: fixed;
+  right: 5px;
+  float: right;
+}
+.noContent {
+  padding-top: 10px;
+  margin: 50px 50px 50px 50px;
+  text-align: center;
+  font-family: Open Sans, sans-serif;
+}
+#NoteContentContainer {
+  width: 100%;
+  -webkit-transition: background-color 0.3s, color 0.3s;
+  transition: background-color 0.3s, color 0.3s;
+}
+#NoteContentContainer #logOut {
+  position: fixed;
+  top: 32px;
+  right: 40px;
+  float: right;
+  font-size: 18px;
+}
+#NoteContentContainer #logOut i {
+  -webkit-transition: background-color 0.3s, color 0.3s;
+  transition: background-color 0.3s, color 0.3s;
+}
+#NoteContentContainer #themeChanger {
+  position: fixed;
+  top: 70px;
+  right: 40px;
+  float: right;
+  font-size: 18px;
+}
+#NoteContentContainer #themeChanger i {
+  -webkit-transition: background-color 0.3s, color 0.3s;
+  transition: background-color 0.3s, color 0.3s;
+}
+.backGround.light {
+  background-color: #f0f2f5;
+  color: #181818;
+}
+.backGround.dark {
+  background-color: #2b3640;
+  color: #f4f4f4;
+}
+.backGround.light.ant-layout {
+  background-color: #f0f2f5;
+  color: #181818;
+  -webkit-transition: background-color 0.3s, color 0.3s;
+  transition: background-color 0.3s, color 0.3s;
+}
+.backGround.dark.ant-layout {
+  background-color: #2b3640;
+  color: #f4f4f4;
+  -webkit-transition: background-color 0.3s, color 0.3s;
+  transition: background-color 0.3s, color 0.3s;
+}
+.textArea.light {
+  background-color: white;
+  color: #181818;
+  -webkit-transition: background-color 0.3s, color 0.3s;
+  transition: background-color 0.3s, color 0.3s;
+}
+.textArea.dark {
+  background-color: #1c1c1c;
+  color: #f4f4f4;
+  -webkit-transition: background-color 0.3s, color 0.3s;
+  transition: background-color 0.3s, color 0.3s;
+}
+.textArea.light .megadraft-editor .DraftEditor-root {
+  background-color: white;
+  color: #181818;
+  -webkit-transition: background-color 0.3s, color 0.3s;
+  transition: background-color 0.3s, color 0.3s;
+}
+.textArea.dark .megadraft-editor .DraftEditor-root {
+  background-color: #1c1c1c;
+  color: #f4f4f4;
+  -webkit-transition: background-color 0.3s, color 0.3s;
+  transition: background-color 0.3s, color 0.3s;
+}
+.textArea.light .megadraft-editor .DraftEditor-root span {
+  background-color: white;
+  color: #181818;
+  -webkit-transition: background-color 0.3s, color 0.3s;
+  transition: background-color 0.3s, color 0.3s;
+}
+.textArea.dark .megadraft-editor .DraftEditor-root span{
+  background-color: #1c1c1c;
+  color: #f4f4f4;
+  -webkit-transition: background-color 0.3s, color 0.3s;
+  transition: background-color 0.3s, color 0.3s;
+}
+.textArea.light .ant-input {
+  background-color: white;
+  color: #181818;
+}
+.textArea.dark .ant-input {
+  background-color: #1c1c1c;
+  color: #f4f4f4;
+}
+.icon.light {
+  color: #181818;
+}
+.icon.dark {
+  color: #f4f4f4;
+}

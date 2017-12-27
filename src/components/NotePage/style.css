@@ -1,0 +1,18 @@
+.NotePage {
+  height: 100%;
+}
+
+.NotePage .Header {
+  margin: 20px 70px 0 70px;
+  padding: 0 0 0 0;
+  background: '#fff';
+}
+
+.NotePage .ant-layout-sider-zero-width-trigger {
+  top: 20px;
+}
+
+.NotePage .Header .ant-input {
+  font-family: Open Sans, sans-serif;
+  font-size: 20px;
+}
